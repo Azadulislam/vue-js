@@ -8,4 +8,4 @@ export default function useDebounce() {
         timeOut.value = setTimeout(func, time)
     }
     return debounce;
-}
+} 

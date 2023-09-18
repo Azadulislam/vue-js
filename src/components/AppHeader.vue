@@ -11,7 +11,7 @@
 import { getAuth, signOut } from "firebase/auth";
 import app from '../pages/utilities/firebase';
 import store from '../store';
-
+                
     export default{
         data(){
             return {

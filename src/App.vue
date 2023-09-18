@@ -14,8 +14,6 @@ import { getAuth, onAuthStateChanged } from "firebase/auth";
 import app from './pages/utilities/firebase';
 import store from './store/index';
   export default {
-    components: {
-    },
     data(){
         return{
           state: this.$store.state,

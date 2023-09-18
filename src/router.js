@@ -23,14 +23,14 @@ const routes = [
     { path: '/tensorflow', component: Tensorflow },
     {
         path: '/chat', component: Chat,
-        beforeEnter: (to, from, next) => {
-            if (!store.state.isLoggedIn) {
-                next("/")
-                store.commit('setIsOpen', true);
-            } else {
-                next()
-            }
-        }
+        // beforeEnter: (to, from, next) => {
+        //     if (!store.state.isLoggedIn) {
+        //         next("/")
+        //         store.commit('setIsOpen', true);
+        //     } else {
+        //         next()
+        //     }
+        // }
     },
 ]
 const router = createRouter({
